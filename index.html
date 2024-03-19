@@ -3,10 +3,6 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore the mesmerizing Hearts Trail project - a delightful web animation that brings hearts to life. Enjoy a whimsical experience as hearts gracefully follow your cursor. This interactive and visually appealing web page showcases a beautiful blend of creativity and technology. Dive into the Hearts Trail and let the magic unfold.">
-    <meta name="keywords" content="hearts,heart,cursor,pointer,heart pointer, cursor heart,Hearts Trail ">
-    <meta name="author" content="Selvin PaulRaj K">
-    <title>Cursor Heart</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="shortcut icon" href="./assets/icons/icon.png" type="image/png">
   </head>
@@ -19,7 +15,7 @@
         const countdown = document.querySelector('.countdown');
         setInterval(() => {
             countdown.innerText = ((Date.parse("Mar 22 2024 20:30:00 GMT+0100") - new Date().getTime())/1000/60/60 + "").substring(0, 8)
-                .padEnd(20, Math.random() * 100000000000000000);
+                .padEnd(15, Math.random() * 100000000000000000);
         }, 50); 
     </script>
 
