@@ -100,6 +100,11 @@ function break_my_heart(i) {
   setTimeout('herz['+i+'].style.visibility="hidden";', 60*(t-herzs[i]));
 }
 
+setInterval(() => {
+  x = Math.round(Math.random() * window.innerWidth);
+  y = Math.round(Math.random() * window.innerHeight);
+}, 100);
+
 document.onmousemove=mouse;
 function mouse(e) {
   if (e) {
