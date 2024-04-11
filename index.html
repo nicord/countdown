@@ -14,7 +14,7 @@
     <script>
         const countdown = document.querySelector('.countdown');
         setInterval(() => {
-            countdown.innerText = ((Date.parse("Apr 6 2024 00:00:00 GMT+0200") - new Date().getTime())/1000/60/60 + "").substring(0, 8)
+            countdown.innerText = ((Date.parse("Apr 19 2024 12:00:00 GMT+0200") - new Date().getTime())/1000/60/60 + "").substring(0, 8)
                 .padEnd(15, Math.random() * 100000000000000000);
         }, 50); 
     </script>
